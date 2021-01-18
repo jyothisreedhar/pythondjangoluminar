@@ -15,7 +15,8 @@ lst=[10,11,12,13,14,15,16]
   #      print(num)#10
 
   #PRINT TOTAL SUM OF LIST
- total=0
- for num in lst:
-      total=num
+total=0
+for num in lst:
+    total+=num
+print(total)
 

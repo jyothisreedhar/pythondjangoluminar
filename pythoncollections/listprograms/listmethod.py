@@ -1,6 +1,6 @@
 #how to create empty lst
 #lst=[]
-lst=list()#creating an empty list
+lst=list()
 #method for adding element in a list
 #list.append()
 #print 1 to 50
@@ -15,5 +15,6 @@ print(total)
 #print highest element
 high=max(lst)
 print(high)
+
 min=min(lst)
 print(min)
