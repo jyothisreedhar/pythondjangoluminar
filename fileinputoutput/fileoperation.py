@@ -18,3 +18,8 @@ for line in word:
         dict[line]=1
     else:
         dict[line]+=1
+for key,value in dict.items():#used for getting the key value
+    print(key,value)
+result=sorted(dict, key=dict.get, reverse=True)
+print(result)
+print(result[0],dict.get(result[0]))
