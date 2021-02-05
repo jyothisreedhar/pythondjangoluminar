@@ -1,11 +1,6 @@
-# polymorphism
-# meaning of polymorphism is many forms or more than one form
-# method overloading
-# method overriding
-# operator overloading
-
 # method overloading
 # same method different number of arguments
+# method overloading can be existed in single class
 
 class Maths:
     def add(self):
@@ -19,10 +14,5 @@ class Maths:
 
 
 m = Maths
-m.add(10)
-m.add(10, 20, 90)
-
-
-
-
-# only recently implemented method working
+# m.add(10)
+m.add(10, 20)

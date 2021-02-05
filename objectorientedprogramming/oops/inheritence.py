@@ -7,7 +7,7 @@
 
 class Parent():
     def phone(self):
-        print("i have nokkia435")
+        print("i have nokia435")
 
 
 class Child(Parent):  # child inherited from parent
@@ -15,7 +15,10 @@ class Child(Parent):  # child inherited from parent
 
 
 c = Child()
-print(c)#hexadecimal value of location
+print(c)  # hexadecimal value of location
 c.phone()
 
 # different types of inheritance
+# parent==>child
+# super==>sub
+# base==>derived
