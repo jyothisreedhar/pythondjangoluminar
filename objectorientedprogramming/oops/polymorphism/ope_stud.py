@@ -18,14 +18,10 @@ stud_list.append(obj1)
 stud_list.append(obj2)
 total = 0
 for stud in stud_list:
-    # print(stud)  # Students(100, "akshay", "django", 140)
 
-# find students done django course
-
-    if stud.course == "django":
+     if stud.course == "django":
         print(stud.name)
 
 # find django students total
-
         total += stud.total
 print(total)

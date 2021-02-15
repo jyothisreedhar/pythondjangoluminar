@@ -37,4 +37,6 @@ print(max(sal_list))
 print(min(desig_list))
 
 # print employee details whose designation developer
-devop=list(filter(lambda emp:emp.desig=="developer",emp_list))
+
+#devop=list(filter(lambda emp:emp.desig=="developer",emp_list))
+#print(devop)

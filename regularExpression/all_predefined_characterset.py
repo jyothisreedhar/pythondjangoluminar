@@ -1,0 +1,13 @@
+pattern = '[ab]'  # it will check either a or b
+pattern = "[a-z]"  # check for lower case a to z
+pattern = "[A-Z]"  # will check for uppercase A to Z
+pattern = "[a-zA-Z]"  # will check for lowercase and upper case a to z
+pattern = "[0-9]"  # will check for digits
+pattern = "[^0-9]"  # will check for except 0 to 9
+pattern = "[a-zA-Z0-9]"  # will check for all word except underscore and space
+pattern = "[a-zA-Z0-9]"  # will check for all special characters like underscore and space
+pattern = "\s"  # will check for spaces
+pattern = "\d"  # will check for digits#"[0-9]"
+pattern = "\D"  # will check except digit
+pattern = "\w"  # will check for all words except special charecters
+pattern = "\W"  # will check except words

@@ -1,4 +1,5 @@
 # print common elements in the given lst
 
-[1,2,3,4]
-[2,4,5,6,8]
+lst1=[1,2,3,4]
+lst2=[2,4,5,6,8]
+out_lst=
