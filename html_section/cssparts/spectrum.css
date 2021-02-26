@@ -1,0 +1,39 @@
+div{
+    width: 60px;
+    height: 100px;
+    margin-left:2%;
+}
+
+
+
+.red{
+    background-color: red;
+    height: 200px;
+    width:150px;
+    float: left;
+    margin-top: 10%;
+    
+}
+.blue{
+    background-color: blue;
+    height: 200px;
+    width: 150px;
+    float: left;
+    margin-top: 10%;
+    
+    
+}
+.green{
+    background-color: green;
+    height: 200px;
+    width: 150px;
+    float: left;
+    margin-top: 10%;
+}
+.violet{
+    background-color: violet;
+    height: 200px;
+    width: 150px;
+    float: left;
+    margin-top: 10%;
+}

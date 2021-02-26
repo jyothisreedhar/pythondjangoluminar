@@ -1,0 +1,16 @@
+/*
+tagname,id class{
+    property:value;
+    property:value;
+
+}*/
+
+body{
+    background-color:rgb(45, 54, 47);
+}
+h1{
+    color: blue;
+}
+h2{
+    color:#520f0c;
+}

@@ -1,0 +1,49 @@
+body{
+    background-image: url("food.jpg");
+    
+}
+h1{
+    color: darkred;
+    text-align:center;
+}
+#rice{
+    background-image: url("jeera.jpg");
+    border-color: darkturquoise;
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+    color: #4287f5;
+    width:50% ;
+    margin-left: 20%;
+    margin-bottom: 1%;  
+}
+#milk{
+    background-image: url("badam.jpg");
+    border-style: solid;
+    border-color: deeppink;
+    text-align: center;
+    color: #f54251;
+    border-width: 1px;
+    width: 50%;
+    margin-left: 20%;  
+    margin-bottom: 1%; 
+}
+#curry{
+    background-image: url("chickn.jpg");
+    border-style: groove;
+    border-color: gold;
+    text-align: center;
+    color: rgb(14, 21, 230);
+    border-width: 1px;
+    width: 50%;
+    margin-left: 20%;  
+}
+#jeera{
+    color: saddlebrown;
+}
+#badam{
+    color: midnightblue;
+}
+#chicken{
+    color: maroon;
+}

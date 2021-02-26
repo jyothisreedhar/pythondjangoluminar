@@ -1,0 +1,21 @@
+.top{
+    height: 100px;
+    width: 60%;
+    background-color: aqua;
+    margin-left: 23%;
+    padding-top: 5px;
+    padding-left: 70px;
+    font: size 50px; 
+    font-weight: 650;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+.bottom{
+    height: 80px;
+    width: 60%;
+    background-color: cadetblue;
+    margin-top: 15%;
+    margin-left: 23%;
+    padding-left:10% ;
+    text-decoration:underline;
+}

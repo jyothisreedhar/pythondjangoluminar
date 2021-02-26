@@ -1,0 +1,66 @@
+body{
+    background-image: url("graham.jpg");
+    background-color: salmon;
+}
+h1{
+    color: steelblue;
+    text-align: center;
+}
+#Nokia{
+    background-color: thistle;
+    border-style: solid;
+    border-color:#1d1e24
+    border-width: 1px;
+    width: 30%;
+    text-align:center;
+}
+#Samsung{
+    background-color: wheat;
+    
+    border-style: solid;
+    border-color:#1d1e24
+    border-width: 1px;
+    width:30%;
+    text-align:center;
+}
+#MInote{
+    background-color: tan;
+    border-style: solid;
+    border-color:#1d1e24
+    border-width: 1px;
+    width:30%;
+    text-align:center;
+}
+#Iphone{
+    background-color: white;
+    border-style: solid;
+    border-color:#1d1e24
+    border-width: 1px;
+    width:30%;
+    text-align:center;
+}
+#c3h{
+    color:rgb(156, 80, 145);    
+    text-align: center;
+    color: blueviolet;
+}
+#M10{
+    color: rosybrown;
+    text-align: center;
+    color: aqua;
+}
+.first{
+    
+    background-color: yellowgreen;
+    border-style: solid;
+    border-color:#1d1e24
+    border-width: 1px;
+    width:30%;   
+    text-align:center;
+    
+#F41{
+    text-align: center;
+}
+#Iph11{
+    text-align: center;
+}
