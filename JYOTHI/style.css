@@ -1,0 +1,159 @@
+body{
+    height: 1500px;
+}
+
+.topdiv{
+    background-color: #5e068a;
+    color: white;
+    font-size: 13px;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    
+}
+.img{
+    max-width: 100%;
+    vertical-align: middle;
+    left: 8%;
+}
+.navba{
+    position: sticky;
+    background-color: white;
+}
+a{
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+    position: relative;
+    left: 490px;
+}
+.text{
+    font-size: 14px;
+    line-height:28px;
+    
+}
+h2{
+    color: #5e068a;
+    font-size: 32px;
+    margin-bottom: 20px;
+    padding-top: 22px;
+    font-weight: 500;
+    max-width: 540px;
+}
+span{
+    color:#5e068a99; 
+    font-size: 32px;
+    margin-bottom: 20px;
+    padding-top: 22px;
+    font-weight: 500;
+    max-width: 540px;
+}
+button{
+    padding: 16px 27px;
+    font-weight: 600;
+    margin-top: 21px;
+    border-radius: 70px;
+    border: 2px solid #5e068a;
+    background:#5e068a ;
+    color: white; 
+    width: 160px;
+}
+.bttn1{
+    position: relative;
+    top:50px;
+    right:12px;
+}
+
+button:hover{
+    
+    padding: 16px 27px;
+    font-weight: 600;
+    margin-top: 21px;
+    border-radius: 50px;
+    border: 2px solid #5e068a;
+    background:white ;
+    color:#5e068a;
+}
+.girl{
+    position: relative;
+    left:120px;
+    top: 15px;      
+}
+.course{
+    position: relative;
+    top: 60px;
+}
+.our{
+    color: #5e068a;
+}
+.ourcourse{
+    color: #9e6ab9; 
+}
+.data{
+  position: relative; 
+  top:80px; 
+}
+.datascience{
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 15px;
+    font-weight:500;
+    color: #5e068a;
+    margin-top: 20px;
+}
+
+.cardpart{
+    position: relative;
+    top:120px;
+    height: 330px;
+}
+.button2{
+    position: relative;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: #5e068a;
+    padding: 12px 20px;
+    color: #fff;
+    text-decoration: none;
+    left: 0%;
+    background-color: #5e068a;
+}
+.python{
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 700;
+    color: #5e068a;
+}   
+.testing{
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #5e068a;
+    
+}
+.mean{
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 700;
+    color: #5e068a;
+   
+}
+
+.button3{
+    position: relative;
+    width:55%;
+    left: 10%;
+}
+
+
+
+ 

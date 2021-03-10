@@ -1,0 +1,163 @@
+body{
+    height: 1500px;
+}
+
+.topdiv{
+    background-color: #5e068a;
+    color: white;
+    font-size: 13px;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    
+}
+.img{
+    max-width: 100%;
+    vertical-align: middle;
+    left: 8%;
+}
+.navba{
+    position: sticky;
+    background-color: white;
+}
+a{
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+    position: relative;
+    left: 490px;
+}
+.text{
+    font-size: 14px;
+    line-height:28px;
+    
+}
+h2{
+    color: #5e068a;
+    font-size: 32px;
+    margin-bottom: 20px;
+    padding-top: 22px;
+    font-weight: 500;
+    max-width: 540px;
+}
+span{
+    color:#5e068a99; 
+    font-size: 32px;
+    margin-bottom: 20px;
+    padding-top: 22px;
+    font-weight: 500;
+    max-width: 540px;
+}
+button{
+    padding: 16px 27px;
+    font-weight: 600;
+    margin-top: 21px;
+    border-radius: 70px;
+    border: 2px solid #5e068a;
+    background:#5e068a ;
+    color: white; 
+    width: 160px;
+}
+.bttn1{
+    position: relative;
+    top:50px;
+    right:12px;
+}
+
+button:hover{
+    
+    padding: 16px 27px;
+    font-weight: 600;
+    margin-top: 21px;
+    border-radius: 50px;
+    border: 2px solid #5e068a;
+    background:white ;
+    color:#5e068a;
+}
+.girl{
+    position: relative;
+    left:120px;
+    top: 15px;      
+}
+.course{
+    position: relative;
+    top: 60px;
+}
+.our{
+    color: #5e068a;
+}
+.ourcourse{
+    color: #9e6ab9; 
+}
+.data{
+  position: relative; 
+  top:80px; 
+}
+.content{
+    position: relative;
+    margin-top:2px;
+    margin-bottom:15px;
+    line-height: 1.8;
+   
+    
+    
+}
+.heading{
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left:5px;
+    font-size:20px;
+    font-family: 'Muli' !important;
+    line-height: 25px;
+    margin-bottom:5px;
+    font-weight:700;
+    color: #5e068a;
+    margin-top:5px;
+    
+    
+}
+.details{
+    line-height: 1.8;
+}
+.CourseContents{
+    position: relative;
+    text-decoration: underline;
+    padding: 0;
+    margin: 0;
+}
+.viewmore{
+    text-decoration: underline;
+    color: #5e068a;
+   
+
+} 
+.python{
+    position: relative;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom:10px;
+    font-weight:500;
+    color: #5e068a;
+    margin-top:20px;
+   
+} 
+.testing{
+    position: relative;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    color: #5e068a;
+    margin-top: 20px;   
+}
+.mean{
+    position: relative;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    color: #5e068a;
+    margin-top: 20px;
+}
+}
