@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="page-header">
+        <nav>
+          <a href="#0">
+            <img class="logo" src="logo.svg" alt="forecastr logo">
+          </a>
+          <button class="toggle-mob-menu" aria-expanded="false" aria-label="open menu">
+            <svg width="20" height="20" aria-hidden="true">
+              <use xlink:href="#down"></use>
+            </svg>
+          </button>
+          <ul class="admin-menu">
+            <li class="menu-heading">
+              <h3>Admin</h3>
+            </li>
+            <li>
+              <a href="#0">
+                <svg>
+                  <use xlink:href="#pages"></use>
+                </svg>
+                <span>Pages</span>
+              </a>
+            </li>
+             
+            <!-- more list items here -->
+             
+            <li>
+              <button class="collapse-btn" aria-expanded="true" aria-label="collapse menu">
+                <svg aria-hidden="true">
+                  <use xlink:href="#collapse"></use>
+                </svg>
+                <span>Collapse</span>
+              </button>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <section class="search-and-user">
+        <form>
+          <input type="search" placeholder="Search Pages...">
+          <button type="submit" aria-label="submit form">
+            <svg aria-hidden="true">
+              <use xlink:href="#search"></use>
+            </svg>
+          </button>
+        </form>
+        <div class="admin-profile">
+          <span class="greeting">...</span>
+          <div class="notifications">
+            <span class="badge">...</span>
+            <svg>
+              <use xlink:href="#users"></use>
+            </svg>
+          </div>
+        </div>
+      </section>
+      <section class="page-content">
+        <section class="grid">
+          <article></article>
+          <article></article>
+          <article></article>
+          <article></article>
+          <article></article>
+          <article></article>
+          <article></article>
+          <article></article>
+        </section>
+      </section>
+      
+    
+</body>
+</html>

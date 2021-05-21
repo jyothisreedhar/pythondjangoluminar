@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    
+</body>
+<script>
+    var request=new XMLHttpRequest()
+    //request.open("get","https://jsonplaceholder.typicode.com/todos")
+    request.open("get","https://jsonplaceholder.typicode.com/users")
+    request.send()
+    request.onreadystatechange=()=>{
+        if(request.readyState==4){
+           if((request.status>199)&(request.status<300)){
+               var data=JSON.parse(request.responseText)
+               //data.forEach(element =>console.log(element.title)) 
+               //list all title whose status completed
+               for(let details of data){
+                   if(details.completed==true){
+                       console.log(details);
+                   }
+                //list all title whose staus is false
+            //    for(const list of data){
+            //        if(list.completed==false){
+            //            console.log(list);
+            //        }
+               }
+            
+
+               
+           }
+        }
+    }
+    
+
+</script>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .img{
+            width: 40px;
+            height: 40px;
+        }
+        .div{
+            padding-left: 60px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-top:50px;
+            margin-left: 300px;
+            margin-right: 500px;
+            background-color:darkseagreen;
+            
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="div">
+        <h1 style="color: maroon;">Get Country Details</h1>
+        <label for="">Enter Country </label>
+        <input type="text" class="country" id="">
+        
+        <button onclick="getData()">GetData</button>
+        <table >
+            <tr>
+                <td ><h3 style="margin: 10px;">Name</h3></td >
+                <td><h3 style="margin: 10px;">Population</h3></td>
+                <td><h3 style="margin: 10px;">currency</h3></td>
+                <td><h3 style="margin: 10px;">flag</h3></td>
+                <tbody class="result">
+
+                </tbody>
+            </tr>
+        </table>
+    </div>
+</body>
+<script>
+    function getData() {
+        var request = new XMLHttpRequest()
+        var name = document.querySelector(".country").value
+        request.open("get", `https://restcountries.eu/rest/v2/name/${name}`)
+        request.send()
+        request.onreadystatechange = () => {
+            if (request.readyState == 4) {
+                if ((request.status > 199) & (request.status < 300)){
+                    var data = JSON.parse(request.responseText)
+                //console.log(data);
+                var html_data = " "
+                data.forEach(obj => {
+                    html_data=`<tr><td>${obj.name}</td><td>${obj.population}</td><td>${obj.currencies[0].name}</td><td><img src="${obj.flag}" class="img"</td></tr>`
+                   
+                })
+                document.querySelector(".result").innerHTML=html_data
+
+                
+
+
+            }
+
+        }
+    }}
+</script>
+
+</html>

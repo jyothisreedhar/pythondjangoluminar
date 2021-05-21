@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <button style="background-color:moccasin;" onclick="listUsers()">list Users</button>
+    <table>
+        <tr>
+            <td>
+                <h3 style="color: crimson;">Username</h3>
+            </td>
+            <td>
+                <h3 style="color: crimson;">Email</h3>
+            </td>
+
+        </tr>
+        <tbody class="data">
+
+
+        </tbody>
+    </table>
+</head>
+
+
+</body>
+<script>
+    var request = new XMLHttpRequest()
+    request.open("get", "https://jsonplaceholder.typicode.com/users")
+
+    function listUsers() {
+        request.send()
+        request.onreadystatechange = () => {
+            if (request.readyState == 4) {
+                if ((request.status > 199) & (request.status < 300)) {
+                    var data = JSON.parse(request.responseText)
+                    //data.forEach(obj =>console.log(obj.name));
+                    var html_data = ""
+                    data.forEach(obj => {
+                        html_data += `<tr><td>${obj.name}</td><td>${obj.email}</td></tr>`
+
+
+                    })
+                    document.querySelector(".data").innerHTML = html_data
+
+
+
+                }
+            }
+        }
+    }
+</script>
+
+</html>

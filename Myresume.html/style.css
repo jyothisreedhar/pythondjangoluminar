@@ -1,5 +1,5 @@
 body{
-    background:#D5D8DC;
+    background:azure;
 }
 .table1{
     width: 700px;
@@ -8,19 +8,20 @@ body{
 }
 .td1{
     
-    padding-left: 20px;
+    padding-left: 50px;
     width: 250px;
     background-color:darkslategrey;
-    color:white;
+    color:rgb(131, 30, 30);
 
 }
 .pic{
-    background-attachment: fixed;
+    height="120px" width="105px"
     position: sticky;
     left: 2%;
     top:0%;
     border-radius:50%;
     height:100px;
+
    
 }
 b{
@@ -62,8 +63,6 @@ hr{
 .visit{
     font-size: 18px;
 }
-.td3{
-  background-color: antiquewhite;  
-}
+
 
    

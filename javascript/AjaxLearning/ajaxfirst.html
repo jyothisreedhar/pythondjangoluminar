@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //HTTP response status codes
+    //Informational responses (100–199)
+    // Successful responses (200–299)
+    // Redirects (300–399)
+    // Client errors (400–499)
+    // Server errors (500–599)
+
+    //have to create xmlhttp req object
+    var request=new XMLHttpRequest()
+    //we open()
+    request.open("get","https://jsonplaceholder.typicode.com/users")
+    //argument:method,ur?
+    request.send()
+     request.onreadystatechange=()=>{
+        if (request.readyState==4){
+            if((request.status>199)&(request.status<300)){
+                //console.log("sucess");
+                var data=JSON.parse(request.responseText)
+                console.log(typeof (data));
+    //             //print names
+                for(let obj of data){
+                    console.log(obj.name);
+                }
+            }
+            else{
+                console.log("fail");
+            }
+        }
+        
+        
+    }
+    </script>
+</body>
+</html>
